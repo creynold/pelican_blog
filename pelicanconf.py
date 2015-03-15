@@ -6,7 +6,10 @@ AUTHOR = u'Collin Reynolds'
 SITENAME = u'Collin Mack'
 SITEURL = ''
 
+THEME='nest'
+
 PATH = 'content'
+OUTPUT_PATH = '../../collinmack_blog/'
 
 TIMEZONE = 'Europe/Paris'
 
