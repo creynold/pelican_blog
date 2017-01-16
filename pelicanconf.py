@@ -13,12 +13,14 @@ SITESUBTITLE=u'A Former Physicist Does Engineering'
 
 NEST_HEADER_IMAGES = 'cayuga.jpg'
 MENUITEMS = [('Home', '/'),]
-MD_EXTENSIONS =[
-		'codehilite(css_class=highlight)',
-		'extra',
-		'toc'
-		]
-
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
 # index.html
 NEST_INDEX_HEAD_TITLE = 'Home'
 NEST_INDEX_HEADER_TITLE = u'Collin Reynolds - A Blog'
@@ -52,6 +54,8 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 #Static files
 STATIC_PATHS = ['images', 'extra/logo.svg']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['render_math']
 EXTRA_PATH_METADATA = {
     'extra/logo.svg': {'path': 'logo.svg'}
 }

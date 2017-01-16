@@ -6,5 +6,7 @@ Slug: escrt-clock-intro
 
 In this series of posts, I'm going to document creating a clock out of a
 Soviet-era electrostatic CRT (ESCRT). A lot of the circuit motivation came from
-https://web.jfet.org/vclk/ and the original datasheet for the CRT I'll be using
-can be found at https://frank.pocnet.net/sheets/183/7/7QR20.pdf.
+[Oscilloscope CRT Clock](https://web.jfet.org/vclk/) and the original datasheet for the CRT I'll be using
+can be found at [7QR20.pdf](https://frank.pocnet.net/sheets/183/7/7QR20.pdf).
+
+$D_3 = 800V$
