@@ -15,9 +15,11 @@ NEST_HEADER_IMAGES = 'cayuga.jpg'
 MENUITEMS = [('Home', '/'),]
 MARKDOWN = {
     'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+#        'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {},
+        'markdown.extensions.tables': {},
     },
     'output_format': 'html5',
 }
