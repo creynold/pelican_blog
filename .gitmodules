@@ -1,9 +1,6 @@
 [submodule "themes/nest"]
 	path = themes/nest
 	url = https://github.com/molivier/nest.git
-[submodule "plugins/pelican_plugin-render_math"]
-	path = plugins/pelican_plugin-render_math
-	url = git@github.com:barrysteyn/pelican_plugin-render_math.git
 [submodule "plugins/render_math"]
 	path = plugins/render_math
 	url = git@github.com:barrysteyn/pelican_plugin-render_math.git
